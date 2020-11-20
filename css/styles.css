@@ -10,3 +10,35 @@ Unviversal Styling
 img {
     width: 20%;
 }
+
+/*====================================
+Navigation Styling
+=====================================*/
+nav {
+  width: 800px;
+  margin: 0 auto;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+        padding-top: 95px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 32px;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+/*====================================
+Title Section Styling
+=====================================*/
