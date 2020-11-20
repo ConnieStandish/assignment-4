@@ -118,6 +118,13 @@ Batman Section Styling
     background-size: cover;
     margin-top: -206px;
 }
+
+.bat {
+    background-color: white;
+    box-sizing: border-box;
+    border: solid darkmagenta;
+    position: relative;
+    float: left;
 /*====================================
 Button Styling
 =====================================*/
