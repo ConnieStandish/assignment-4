@@ -81,6 +81,8 @@ Superman Section Styling
   padding-top: 15%;
   padding-bottom: 20%;
   background-image: url('../images/metropolis.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .super {
@@ -93,6 +95,7 @@ Superman Section Styling
     box-shadow: rgb(68 2 65 / 60%);
     box-sizing: border-box;
     padding: 0 0px 60px 37px;
+    background-color: aliceblue;
 }
 
 .super dd {
@@ -100,6 +103,21 @@ Superman Section Styling
     padding: 0px 12px 0px 10px;
 }
 
+.superman-pic {
+    position: relative;
+    left: 315px;
+    top: 15px;
+}
+
+/*====================================
+Batman Section Styling
+=====================================*/
+.slide-2 {
+    background-image: url(../images/gotham.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -206px;
+}
 /*====================================
 Button Styling
 =====================================*/
