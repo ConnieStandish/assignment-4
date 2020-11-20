@@ -22,12 +22,14 @@ nav {
 nav ul {
     text-align: center;
     list-style-type: none;
-        padding-top: 95px;
+    padding-top: 95px;
 }
 
 nav ul li {
+    position: relative;
+    top: 32px;
     display: inline;
-    margin: 32px;
+    margin: 0px 32px;
     padding: 50px;
     font-size: 20px;
     text-align: center;
@@ -42,3 +44,15 @@ nav ul li a {
 /*====================================
 Title Section Styling
 =====================================*/
+.title-slide {
+    position: relative;
+    top: -88px;
+    left: 44%;
+    margin-left: 14px;
+}
+
+.title {
+    font-size: 38px;
+    margin-left: -155px;
+    text-transform: uppercase;
+}
