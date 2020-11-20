@@ -73,3 +73,25 @@ Title Section Styling
     margin-left: -155px;
     text-transform: uppercase;
 }
+
+/*====================================
+Superman Section Styling
+=====================================*/
+.slide-1 {
+    padding-top: 15%;
+}
+
+.super {
+    position: relative;
+    float: right;
+    right: 27%;
+    top: 180px;
+    border: solid;
+    box-sizing: border-box;
+    padding: 15px 115px;
+}
+
+.super details {
+    position: relative;
+    right: 70px;
+}
