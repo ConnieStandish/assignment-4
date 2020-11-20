@@ -2,21 +2,38 @@
 Unviversal Styling
 =====================================*/
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
 }
 
 img {
     width: 20%;
 }
 
+body {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    perspective: 1px;
+    transform-style: preserve-3d;
+}
+
+h2 {
+    padding: 20px 25px;
+}
 /*====================================
 Navigation Styling
 =====================================*/
 nav {
-  width: 800px;
-  margin: 0 auto;
+    width: 800px;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -29,7 +46,7 @@ nav ul li {
     position: relative;
     top: 32px;
     display: inline;
-    margin: 0px 32px;
+    margin: 0px 28px;
     padding: 50px;
     font-size: 20px;
     text-align: center;
