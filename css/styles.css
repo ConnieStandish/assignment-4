@@ -6,3 +6,7 @@ Unviversal Styling
   padding: 0;
   border: 0;
 }
+
+img {
+    width: 20%;
+}
