@@ -113,11 +113,12 @@ Superman Section Styling
 Batman Section Styling
 =====================================*/
 .slide-2 {
-    width: 165%;
     background-image: url(../images/gotham.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 0;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+    height: 1000px;
 }
 
 .bat {
@@ -150,8 +151,9 @@ Wonder Woman Section Styling
     background-image: url(../images/paradise.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    margin: 56px 0 -1px 0;
 }
-
 .wonder {
     box-sizing: border-box;
     border: solid #000;
