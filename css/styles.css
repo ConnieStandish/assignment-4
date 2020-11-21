@@ -161,13 +161,14 @@ Wonder Woman Section Styling
 
 .wonder {
     box-sizing: border-box;
-    border: solid #000;
+    border: solid #afceed9e;
     position: relative;
     padding: 8px 5px 30px 63px;
     width: 40%;
-    background: mintcream;
+    background: #a9cbeede;
     bottom: 313px;
     left: 52%;
+    box-shadow: 7px 9px 13px 2px #f2f4f3;
 }
 
 img.wonder-pic {
@@ -212,4 +213,19 @@ a.button-2 {
     font-weight: bold;
     background: #302e2f;
     color: white;
+}
+
+a.button-3 {
+    border: solid #69bd909e;
+    border-radius: 24px;
+    padding: 10px;
+    position: relative;
+    left: 253px;
+    right: 0px;
+    top: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #86d28896;
+    color: black;
 }
