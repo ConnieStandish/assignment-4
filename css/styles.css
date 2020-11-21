@@ -161,6 +161,12 @@ Wonder Woman Section Styling
     left: 54%;
 }
 
+img.wonder-pic {
+    position: relative;
+    top: 342px;
+    left: 125px;
+}
+
 /*====================================
 Buttons Styling
 =====================================*/
