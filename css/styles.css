@@ -142,7 +142,7 @@ Batman Section Styling
 }
 
 /*====================================
-Batman Section Styling
+Wonder Woman Section Styling
 =====================================*/
 .slide-3 {
     background-image: url(../images/paradise.jpg);
@@ -152,9 +152,13 @@ Batman Section Styling
 
 .wonder {
     box-sizing: border-box;
-    border: solid #dcf361c4;
+    border: solid #000;
     position: relative;
-    padding: 10px 0px 25px 40px;
+    padding: 8px 5px 30px 63px;
+    width: 40%;
+    background: mintcream;
+    bottom: 326px;
+    left: 54%;
 }
 
 /*====================================
