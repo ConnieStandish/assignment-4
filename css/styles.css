@@ -156,3 +156,11 @@ Batman Section Styling
     position: relative;
     padding: 10px 0px 25px 40px;
 }
+
+/*====================================
+Buttons Styling
+=====================================*/
+a.button-1 {
+    border: solid black;
+    border-radius: 24px;
+}
