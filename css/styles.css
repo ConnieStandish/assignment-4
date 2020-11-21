@@ -157,14 +157,19 @@ Wonder Woman Section Styling
     padding: 8px 5px 30px 63px;
     width: 40%;
     background: mintcream;
-    bottom: 326px;
-    left: 54%;
+    bottom: 313px;
+    left: 52%;
 }
 
 img.wonder-pic {
     position: relative;
     top: 342px;
     left: 125px;
+}
+
+.wonder dd {
+    margin: 10px 20px;
+    padding: 4px;
 }
 
 /*====================================
