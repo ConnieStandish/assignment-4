@@ -142,12 +142,17 @@ Batman Section Styling
 }
 
 /*====================================
-Button Styling
+Batman Section Styling
 =====================================*/
-a.button-1 {
+.slide-3 {
+    background-image: url(../images/paradise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wonder {
+    box-sizing: border-box;
+    border: solid #dcf361c4;
     position: relative;
-    left: 40%;
-    top: 25px;
-    text-decoration: none;
-    text-transform: uppercase;
+    padding: 10px 0px 25px 40px;
 }
