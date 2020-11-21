@@ -12,6 +12,10 @@ html {
     overflow: hidden;
 }
 
+header {
+    padding: 15px;
+}
+
 img {
     width: 20%;
 }
@@ -82,7 +86,7 @@ Superman Section Styling
     background-image: url(../images/metropolis.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px 0px;
+    margin: 50px 0px 0px;
     min-width: 100vw;
 }
 
@@ -124,13 +128,13 @@ Batman Section Styling
 .bat {
     background: #969494;
     box-sizing: border-box;
-    border: solid #dcf361c4;
+    border: solid #5d5a5a6b;
     position: relative;
     float: left;
     top: 207px;
-    left: 80px;
-    box-shadow: -13px -6px 11px 4px #dcf361c4;
-    padding: 10px 0px 25px 40px;
+    left: 105px;
+    box-shadow: 5px -4px 11px 4px #f3e16185;
+    padding: 8px 5px 30px 63px;
 }
 
 .bat dd {
@@ -139,9 +143,9 @@ Batman Section Styling
 }
 
 .batman-pic {
-    left: 500px;
+    left: 473px;
     position: relative;
-    top: 3px;
+    top: 165px;
 }
 
 /*====================================
@@ -152,8 +156,9 @@ Wonder Woman Section Styling
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    margin: 56px 0 -1px 0;
+    margin: -1px 0 -1px 0;
 }
+
 .wonder {
     box-sizing: border-box;
     border: solid #000;
