@@ -91,9 +91,8 @@ Superman Section Styling
     right: 5%;
     top: 180px;
     border: solid rgb(132 130 130 / 20%);
-    box-shadow: -4px 3px 5px 3px gray;
-    box-shadow: rgb(68 2 65 / 60%);
     box-sizing: border-box;
+    box-shadow: 3px -9px 10px 2px #b7c0c1;
     padding: 0 0px 60px 37px;
     background-color: aliceblue;
 }
@@ -120,11 +119,26 @@ Batman Section Styling
 }
 
 .bat {
-    background-color: white;
+    background: #969494;
     box-sizing: border-box;
-    border: solid darkmagenta;
+    border: solid #dcf361c4;
     position: relative;
     float: left;
+    top: 207px;
+    left: 80px;
+    box-shadow: -13px -6px 11px 4px #dcf361c4;
+    padding: 10px 0px 25px 40px;
+}
+
+.bat dd {
+    margin: 10px 20px;
+    padding: 7px;
+}
+
+.batman-pic {
+    left: 500px;
+    position: relative;
+    top: 3px;
 }
 
 /*====================================
