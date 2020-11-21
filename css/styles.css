@@ -186,7 +186,7 @@ img.wonder-pic {
 Buttons Styling
 =====================================*/
 a.button-1 {
-    border: solid black;
+    border: solid #75acd8;
     border-radius: 24px;
     padding: 10px;
     position: relative;
@@ -196,12 +196,12 @@ a.button-1 {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    background: #82aed1;
+    background: #599ace;
     color: white;
 }
 
 a.button-2 {
-    border: solid black;
+    border: solid #464141;
     border-radius: 24px;
     padding: 10px;
     position: relative;
