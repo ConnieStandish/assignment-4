@@ -10,11 +10,12 @@ Unviversal Styling
 html {
     height: 100%;
     overflow: hidden;
-}
 
 header {
     position: relative;
     padding: 15px;
+    height: 150px;
+    background: #8aaad1;
 }
 
 img {
@@ -46,12 +47,13 @@ Navigation Styling
 nav {
     width: 800px;
     margin: 0 auto;
+    padding: 26px;
 }
 
 nav ul {
     text-align: center;
     list-style-type: none;
-    padding-top: 95px;
+    padding-top: 112px;
 }
 
 nav ul li {
@@ -83,7 +85,7 @@ Title Section Styling
     font-size: 38px;
     margin-left: -151px;
     text-transform: uppercase;
-    margin-top: -145px;
+    margin-top: -162px;
 }
 /*====================================
 Superman Section Styling
@@ -255,3 +257,37 @@ a.button-3:hover {
 /*====================================
 Animations
 =====================================*/
+.clouds-1,
+.clouds-2,
+.clouds-3,
+.clouds-4 {
+  position: absolute;
+}
+
+.clouds-1 {
+    transform: scaleX(-1);
+    right: 10px;
+    width: 250px;
+    opacity: .5;
+    animation: wind 50s linear infinite;
+}
+
+.clouds-2 {
+  width: 350px;
+  animation: wind 45s linear infinite;
+}
+
+.clouds-3 {
+    width: 240px;
+    top: 50px;
+    animation: wind 30s linear infinite;
+}
+
+@keyframes wind {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 2000px
+  }
+}
