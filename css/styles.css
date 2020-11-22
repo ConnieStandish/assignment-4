@@ -13,6 +13,7 @@ html {
 }
 
 header {
+    position: relative;
     padding: 15px;
 }
 
@@ -141,7 +142,7 @@ Batman Section Styling
     top: 207px;
     left: 105px;
     box-shadow: 5px -4px 11px 4px #f3e16185;
-    padding: 8px 5px 30px 63px;
+    padding: 0 0 60px 37px;
 }
 
 .bat dd {
@@ -170,7 +171,7 @@ Wonder Woman Section Styling
     box-sizing: border-box;
     border: solid #afceed9e;
     position: relative;
-    padding: 8px 5px 30px 63px;
+    padding: 0 0 60px 37px;
     width: 40%;
     background: #a9cbeede;
     bottom: 313px;
@@ -180,7 +181,7 @@ Wonder Woman Section Styling
 
 img.wonder-pic {
     position: relative;
-    top: 342px;
+    top: 425px;
     left: 125px;
 }
 
@@ -250,3 +251,7 @@ a.button-3:hover {
     background: #2b8ee2;
     transition: .3s;
 }
+
+/*====================================
+Animations
+=====================================*/
