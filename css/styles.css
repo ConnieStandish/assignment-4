@@ -10,12 +10,10 @@ Unviversal Styling
 html {
     height: 100%;
     overflow: hidden;
+}
 
 header {
-    position: relative;
-    padding: 15px;
-    height: 150px;
-    background: #8aaad1;
+  background: #8aaad1;
 }
 
 img {
@@ -58,7 +56,7 @@ nav ul {
 
 nav ul li {
     position: relative;
-    top: 37px;
+    top: 59px;
     display: inline;
     margin: 0px 28px;
     padding: 50px;
