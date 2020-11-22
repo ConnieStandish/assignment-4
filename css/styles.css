@@ -58,7 +58,7 @@ nav ul li {
     position: relative;
     top: 59px;
     display: inline;
-    margin: 0px 28px;
+    margin: 0 28px;
     padding: 50px;
     font-size: 20px;
     text-align: center;
@@ -94,7 +94,7 @@ Superman Section Styling
     background-image: url(../images/metropolis.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px 0px 0px;
+    margin: 50px 0 0;
     min-width: 100vw;
 }
 
@@ -106,7 +106,7 @@ Superman Section Styling
     border: solid rgb(132 130 130 / 20%);
     box-sizing: border-box;
     box-shadow: 3px -9px 10px 2px #b7c0c1;
-    padding: 0 0px 60px 37px;
+    padding: 0 0 60px 37px;
     background-color: aliceblue;
 }
 
@@ -259,7 +259,7 @@ Animations
 .clouds-2,
 .clouds-3,
 .clouds-4 {
-  position: absolute;
+    position: absolute;
 }
 
 .clouds-1 {
@@ -271,8 +271,8 @@ Animations
 }
 
 .clouds-2 {
-  width: 350px;
-  animation: wind 45s linear infinite;
+    width: 350px;
+    animation: wind 45s linear infinite;
 }
 
 .clouds-3 {
